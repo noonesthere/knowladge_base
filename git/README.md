@@ -15,10 +15,10 @@ git revert HEAD
 git checkout -b # create new branch and checkout 
 
 
-
+```
 git branch -a# - All branches.
 
 git branch -r #- Remote branches only.
 
 git branch -l #or git branch - Local branches only.
-
+```
