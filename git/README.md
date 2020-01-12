@@ -11,3 +11,5 @@ In order to reverse changes and share those reversed changes with others, we nee
 ```
 git revert HEAD
 ```
+
+git checkout -b # create new branch and checkout 
