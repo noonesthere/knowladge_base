@@ -11,14 +11,19 @@ In order to reverse changes and share those reversed changes with others, we nee
 ```
 git revert HEAD
 ```
-
-git checkout -b # create new branch and checkout 
-
-
+#create new branch and checkout 
 ```
-git branch -a# - All branches.
+git checkout -b 
+```
 
-git branch -r #- Remote branches only.
-
-git branch -l #or git branch - Local branches only.
+#show all branches (remote and local)
+```
+git branch -a
+```
+# show all remote branches
+```git branch -r
+``` 
+#show all local branches
+```
+git branch -l
 ```
