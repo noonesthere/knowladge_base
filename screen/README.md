@@ -14,4 +14,7 @@ ctrl a + d
 screen -r pid
 ```
 
-
+###### list of screens
+```
+screen -ls
+```
