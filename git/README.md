@@ -25,7 +25,7 @@ git branch -a
 ###### show all remote branches
 ```git branch -r
 ``` 
-######show all local branches
+###### show all local branches
 ```
 git branch -l
 ```
