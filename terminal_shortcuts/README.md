@@ -1,6 +1,9 @@
 #### shell_shortcuts
 
-
+###### Disable swap
+sudo swapoff -a
+###### Start stop restart service
+sudo service servece1 [start/stop/restart/status]
 ###### Basic moves
 
 Move back one character. **Ctrl + b**  
