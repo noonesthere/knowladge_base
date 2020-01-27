@@ -29,4 +29,7 @@ git branch -a
 ```
 git branch -l
 ```
-
+###### Squash last 3 commit into one (local)
+```
+git reset --soft HEAD~3 && git commit -m "Commit message"
+```
