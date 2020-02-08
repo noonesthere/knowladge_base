@@ -12,4 +12,7 @@ knowledge base
 
 [mysql](https://github.com/noonesthere/knowladge_base/tree/master/mysql)
 
+[uml](https://github.com/noonesthere/knowladge_base/tree/master/uml)
+
+
 
