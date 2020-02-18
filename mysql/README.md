@@ -8,3 +8,6 @@ show variables[like %%]
 ```
 **Index** -  should be created for column which used in where cause
 ```
+
+
+SHOW FULL PROCESSLIST
