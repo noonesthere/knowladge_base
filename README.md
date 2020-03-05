@@ -15,4 +15,5 @@ knowledge base
 [uml](https://github.com/noonesthere/knowladge_base/tree/master/uml)
 
 
+[bash tips](https://github.com/noonesthere/knowladge_base/tree/master/bash_tips)
 
