@@ -3,3 +3,8 @@
 ```
 grep -E 'ERROR|WANR'
 ```
+
+
+```
+wget -r -p -U Mozilla http://www.stupidsite.com/restricedplace.html
+```
