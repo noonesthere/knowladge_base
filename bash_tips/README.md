@@ -13,4 +13,5 @@ wget -r -p -U Mozilla http://www.stupidsite.com/restricedplace.html
 Show duplicate lines in current files
 ```
 grep PORT ./* | uniq -d
+grep PORT ./* | cut -d '=' -f 2 | uniq -d
 ```
