@@ -1,10 +1,16 @@
 ##### Bash tips
->>> show only error and warn messges
+
+Show only error and warn messges
 ```
-grep -E 'ERROR|WANR'
+grep -E 'ERROR|WARN'
 ```
 
 
 ```
 wget -r -p -U Mozilla http://www.stupidsite.com/restricedplace.html
+```
+
+Show duplicate lines in current files
+```
+grep PORT ./* | uniq -d
 ```
