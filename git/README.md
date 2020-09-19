@@ -23,7 +23,8 @@ git checkout -b
 git branch -a
 ```
 ###### show all remote branches
-```git branch -r
+```
+git branch -r
 ``` 
 ###### show all local branches
 ```
