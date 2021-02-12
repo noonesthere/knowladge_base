@@ -18,3 +18,8 @@ Show duplicate lines in current files
 grep PORT ./* | uniq -d
 grep PORT ./* | cut -d '=' -f 2 | uniq -d
 ```
+###### Check memory
+```
+top -o %MEM
+```
+
