@@ -22,4 +22,14 @@ grep PORT ./* | cut -d '=' -f 2 | uniq -d
 ```
 top -o %MEM
 ```
+###### Memory statistics
+/proc/meminfo
+
+###### Virtual memory map of process
+/proc/PID/maps
+/proc/PID/smaps
+
+man procfs
+
+pmap  -x PID
 
