@@ -30,7 +30,7 @@ git branch -r
 ```
 git branch -l
 ```
-###### Squash last 3 commit into one (local)
+###### Возвращает проект к указанному коммиту, при этом переводит все коммиты после указанного в неотслеживаемую (unstaged) зону.
 ```
-git reset --soft HEAD~3 && git commit -m "Commit message"
+git reset --mixed HEAD^^
 ```
