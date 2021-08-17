@@ -87,7 +87,8 @@ GO
 CREATE INDEX IX_MonthLastDay ON dbo.DatabaseLog (MonthLastDay)
 ```
 
-> Как я уже говорил, любые вычисления на индексных полях снижают производительность и приводят к увеличению логических чтений:
+> Как я уже говорил, любые вычисления на индексных полях 
+>снижают производительность и приводят к увеличению логических чтений:
 
 ```
 SET STATISTICS IO ON
@@ -106,12 +107,13 @@ WHERE BusinessEntityID = 5000
 
 ```
 
-> Решение проблемы достаточно простое — нужно контролировать, чтобы типы данных при сравнении совпадали.
+> Решение проблемы достаточно простое — нужно контролировать, 
+>чтобы типы данных при сравнении совпадали.
 
->Preffer UNION instead UNION ALL (UNION work parallel
+>Preffer UNION instead UNION ALL (UNION work parallel)
 
 >При реорганизации индексов же — статистика не 
 
 >USE CLUSTERED INDEX for keys which works in WHERE 
 
-> USE NONCLUSTERED TO IMPROVE GROUP BY WHERE JOIN
+> USE NONCLUSTERED TO IMPROVE **GROUP BY** **WHERE** **JOIN**
